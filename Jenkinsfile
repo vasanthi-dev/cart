@@ -1,5 +1,9 @@
 @Library('roboshop1') _
 
+@Library('utils') _
+
+nodejs.info 'Starting'
+nodejs.warning 'Nothing to do!'
 
 pipeline {
  agent {
