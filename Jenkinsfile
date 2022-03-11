@@ -1,10 +1,5 @@
 @Library('roboshop1') _
 
-@Library('utils') _
-
-nodejs.info 'Starting'
-nodejs.warning 'Nothing to do!'
-
 pipeline {
  agent {
     label 'WORKSTATION'
@@ -15,7 +10,10 @@ pipeline {
  stages {
    stage('Compile the Code') {
      steps {
-       sh 'echo Compile the Code'
+        script{
+            nodejs.info 'Compile the Code'
+            nodejs.warning 'Nothing to do!'
+        }
      }
    }
    stage('Check the Code Quality') {
