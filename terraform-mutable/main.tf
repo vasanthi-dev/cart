@@ -9,3 +9,4 @@ module "app-module" {
   LB_RULE_PRIORITY = 100
   LB_PRIVATE =  true
 }
+
