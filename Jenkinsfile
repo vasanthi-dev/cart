@@ -6,5 +6,5 @@ env.COMPONENT="cart"
 env.BUILD_LABEL="WORKSTATION"
 
 //library groovy file
-immutable-nodejs()
+immutablenodejs()
 
